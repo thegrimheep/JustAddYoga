@@ -12,13 +12,16 @@ class Event {
     let name : String
     let description : String
     let id : String
-//    let user : User?
+    var user : User?
     
     init?(json: [String: Any]) {
         if let name = json["name"] as? String, let description = json["description"] as? String, let id = json["id"] as? String {
             self.name = name
             self.description = description
             self.id = id
+            if let userDictionary = json["user"] as? [String: Any] {
+                self.user = User(json: userDictionary)
+            }
         } else {
             return nil
         }
