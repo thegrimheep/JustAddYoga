@@ -12,6 +12,7 @@
 		A17A60D320642411002BAF08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17A60D120642411002BAF08 /* Main.storyboard */; };
 		A17A60D520642411002BAF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17A60D420642411002BAF08 /* Assets.xcassets */; };
 		A17A60D820642411002BAF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17A60D620642411002BAF08 /* LaunchScreen.storyboard */; };
+		A17A60E020642C91002BAF08 /* event.json in Resources */ = {isa = PBXBuildFile; fileRef = A17A60DF20642C91002BAF08 /* event.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A17A60D420642411002BAF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17A60D720642411002BAF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17A60D920642411002BAF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17A60DF20642C91002BAF08 /* event.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = event.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A17A60CD20642411002BAF08 /* AppDelegate.swift */,
 				A17A60CF20642411002BAF08 /* ViewController.swift */,
+				A17A60DF20642C91002BAF08 /* event.json */,
 				A17A60D120642411002BAF08 /* Main.storyboard */,
 				A17A60D420642411002BAF08 /* Assets.xcassets */,
 				A17A60D620642411002BAF08 /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17A60E020642C91002BAF08 /* event.json in Resources */,
 				A17A60D820642411002BAF08 /* LaunchScreen.storyboard in Resources */,
 				A17A60D520642411002BAF08 /* Assets.xcassets in Resources */,
 				A17A60D320642411002BAF08 /* Main.storyboard in Resources */,
