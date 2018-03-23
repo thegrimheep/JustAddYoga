@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias JSONParserCallback = (Bool, [Event]?)->()
+typealias JSONParserCallback = (Bool, [Events]?)->()
 
 class JSONParser {
     
@@ -20,17 +20,17 @@ class JSONParser {
             let eventJSONData = try Data (contentsOf: eventJSONPath)
             return eventJSONData
         } catch {
-            fatalError("Failed to create data from evenJSONPath")
+            fatalError("Failed to create data from eventJSONPath")
         }
     }
     class func EventsFrom(data: Data, callback: JSONParserCallback) {
         
         do{
             if let rootObject = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [[String : Any]] {
-                var events = [Event]()
+                var events = [Events]()
                 
                 for eventDictionary in rootObject {  //root object here is an array of objects representing the events
-                    if let event = Event(json: eventDictionary) {
+                    if let event = Events(json: eventDictionary) {
                         events.append(event)
                     }
                 }

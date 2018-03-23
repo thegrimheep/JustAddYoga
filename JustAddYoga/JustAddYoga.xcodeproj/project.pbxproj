@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A17A60CE20642411002BAF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A60CD20642411002BAF08 /* AppDelegate.swift */; };
-		A17A60D020642411002BAF08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A60CF20642411002BAF08 /* ViewController.swift */; };
 		A17A60D320642411002BAF08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17A60D120642411002BAF08 /* Main.storyboard */; };
 		A17A60D520642411002BAF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17A60D420642411002BAF08 /* Assets.xcassets */; };
 		A17A60D820642411002BAF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17A60D620642411002BAF08 /* LaunchScreen.storyboard */; };
@@ -16,12 +15,12 @@
 		A17A60E22064309C002BAF08 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A60E12064309C002BAF08 /* Event.swift */; };
 		A17A60E4206430B6002BAF08 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A60E3206430B6002BAF08 /* User.swift */; };
 		A17A60E6206450F1002BAF08 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A60E5206450F1002BAF08 /* JSONParser.swift */; };
+		A17A60E820645F61002BAF08 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A60E720645F61002BAF08 /* EventListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A17A60CA20642411002BAF08 /* JustAddYoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustAddYoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17A60CD20642411002BAF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A17A60CF20642411002BAF08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A17A60D220642411002BAF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A17A60D420642411002BAF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17A60D720642411002BAF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		A17A60E12064309C002BAF08 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A17A60E3206430B6002BAF08 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A17A60E5206450F1002BAF08 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		A17A60E720645F61002BAF08 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 		A17A60CC20642411002BAF08 /* JustAddYoga */ = {
 			isa = PBXGroup;
 			children = (
+				A17A60E720645F61002BAF08 /* EventListViewController.swift */,
 				A17A60CD20642411002BAF08 /* AppDelegate.swift */,
-				A17A60CF20642411002BAF08 /* ViewController.swift */,
 				A17A60DF20642C91002BAF08 /* event.json */,
 				A17A60E12064309C002BAF08 /* Event.swift */,
 				A17A60E5206450F1002BAF08 /* JSONParser.swift */,
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17A60E820645F61002BAF08 /* EventListViewController.swift in Sources */,
 				A17A60E4206430B6002BAF08 /* User.swift in Sources */,
 				A17A60E6206450F1002BAF08 /* JSONParser.swift in Sources */,
-				A17A60D020642411002BAF08 /* ViewController.swift in Sources */,
 				A17A60E22064309C002BAF08 /* Event.swift in Sources */,
 				A17A60CE20642411002BAF08 /* AppDelegate.swift in Sources */,
 			);

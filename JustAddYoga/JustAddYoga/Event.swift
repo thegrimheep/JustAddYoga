@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Event {
+class Events {
     let name : String
     let description : String
     let id : String
