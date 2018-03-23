@@ -19,8 +19,8 @@ class EventListViewController: UIViewController {
                     fatalError("Events came back nil")
                 }
                 
-                for event in events {
-                    print(event.description)
+                for events in events {
+                    print(events.name)
                 }
             }
         }

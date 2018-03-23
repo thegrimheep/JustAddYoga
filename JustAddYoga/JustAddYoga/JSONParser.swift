@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias JSONParserCallback = (Bool, [Event]?)->()
+typealias JSONParserCallback = (Bool, [Events]?)->()
 
 class JSONParser {
     
@@ -27,10 +27,10 @@ class JSONParser {
         
         do{
             if let rootObject = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [[String : Any]] {
-                var events = [Event]()
+                var events = [Events]()
                 
                 for eventDictionary in rootObject {  //root object here is an array of objects representing the events
-                    if let event = Event(json: eventDictionary) {
+                    if let event = Events(json: eventDictionary) {
                         events.append(event)
                     }
                 }
