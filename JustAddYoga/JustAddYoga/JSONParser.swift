@@ -20,7 +20,7 @@ class JSONParser {
             let eventJSONData = try Data (contentsOf: eventJSONPath)
             return eventJSONData
         } catch {
-            fatalError("Failed to create data from evenJSONPath")
+            fatalError("Failed to create data from eventJSONPath")
         }
     }
     class func EventsFrom(data: Data, callback: JSONParserCallback) {
