@@ -20,7 +20,7 @@ class EventListViewController: UIViewController {
                 }
                 
                 for events in events {
-                    print(events.name)
+                    print(events.description)
                 }
             }
         }
